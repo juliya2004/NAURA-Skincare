@@ -1,0 +1,95 @@
+body {
+  font-family: 'Georgia', serif;
+  margin: 0;
+  background:bisque;
+  color:black;
+}
+
+header {
+  background-color:white;
+  padding: 1em 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+  letter-spacing: 1px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #4a4a4a;
+  font-weight: bold;
+}
+
+.hero {
+  background: url('https://source.unsplash.com/1600x600/?skincare,nature') no-repeat center center/cover;
+  padding: 5em 2em;
+  position: relative;
+  text-align: center;
+}
+
+.hero .overlay {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 2em;
+  color: white;
+}
+
+section {
+  padding: 3em 2em;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+}
+
+.product-card {
+  flex: 1 1 30%;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+#subscribe form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 1em auto;
+}
+
+#subscribe input {
+  padding: 0.8em;
+  font-size: 1em;
+  margin-bottom: 1em;
+  border: 1px solid #ccc;
+}
+
+#subscribe button {
+  padding: 0.8em;
+  background-color: #86b49d;
+  color: white;
+  border: none;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  background: #f0f0f0;
+  padding: 1.5em;
+  font-size: 0.9em;
+}
